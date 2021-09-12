@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext");
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0033ff;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.section-title span {
+  text-transform: none;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* Layout */
+.wrapper {
+  display: flex;
+  margin-left: 10px;
+}
+
+.sidebar {
+  flex: 1 0 0;
+}
+
+.posts {
+  flex: 2 0 0;
+}
+
+.sidebar, .posts {
+  background: #ffffff;
+  margin-right: 10px;
+  padding: 40px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #dcdde1;
+}
+
+/* Logo */
+.logo {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* Lists */
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list .active {
+  font-weight: bold;
+  color: #444;
+}
+
+.list-horizontal li {
+  display: inline-block;
+}
+
+/* Authors */
+.authors li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.authors li a {
+  text-decoration: none;
+  color: #2ecc71;
+}
+
+/* Post */
+.post {
+  display: none;
+}
+
+.post.active {
+  display: block;
+}
+
+.post-author {
+  font-style: italic;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-author a {
+  text-decoration: none;
+  color: #2ecc71;
+}
+
+.post-tags {
+  display: flex;
+}
+
+.post-tags p {
+  margin: 0 10px 0 0;
+}
+
+.tags li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.tags li a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.tag-size-1 {
+  font-size: 20px;
+  color: #ffda79;
+}
+
+.tag-size-2 {
+  font-size: 25px;
+  color: #78e08f;
+}
+
+.tag-size-3 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.tag-size-4 {
+  font-size: 35px;
+  color: #079992;
+}
+
+.tag-size-5 {
+  font-size: 40px;
+  color: #03615c;
+}
+
+.sidebar {
+  text-align: center;
+}
+
+.sidebar .titles a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e67e22;
+  font-size: 20px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
